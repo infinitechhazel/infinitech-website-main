@@ -78,8 +78,8 @@ export const members = [
       title: "09298597655",
       href: "https://msng.link/o?09298597655=vi"
     },
-    facebookname: "Maria Krissa Charez Bongon",
-    href: "https://www.facebook.com/charizr1"
+    facebookname: "Krissa Bongon",
+    href: "https://www.facebook.com/infinitech.krissa"
   },
   // Sales Director
   {
