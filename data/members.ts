@@ -92,7 +92,7 @@ export const members = [
       title: "09651983796",
       href: "https://web.telegram.org/k/#3965198379"
     },
-    facebookname: "Baby Rose Hernandez",
+    facebookname: "Rose Tamayo Hernandez",
     href: "https://www.facebook.com/share/1FFxbQz9Gc/"
   },
   // Accounting Supervisor
@@ -110,7 +110,7 @@ export const members = [
       title: "09667515747",
       href: "https://msng.link/o?09667515747=vi"
     },
-    facebookname: "Darlene Angel Fajarito",
+    facebookname: "Darlene Angel G. Fajarito ",
     href: "https://www.facebook.com/darlenefajarito"
   },
   // Admin Assistant
@@ -138,7 +138,7 @@ export const members = [
       title: "09455837887",
       href: "https://web.telegram.org/a/#1852459873"
     },
-    facebookname: "Jhoanna Mae Papio",
+    facebookname: "Jho Papio",
     href: "https://www.facebook.com/share/1CvLXJM1S4/"
   },
   // Junior IT Manager
@@ -156,7 +156,7 @@ export const members = [
       title: "09456754591",
       href: "https://msng.link/o?09456754591=vi"
     },
-    facebookname: "Justin De Castro",
+    facebookname: "Justin Mangubat DeCastro",
     href: "https://www.facebook.com/tine.tainy"
   },
   // Junior Web Developer
@@ -183,7 +183,7 @@ export const members = [
       title: "09668830150",
       href: "https://t.me/infinitech_hazel"
     },
-    facebookname: "Hazel Anne Mendoza",
+    facebookname: "Hazel Mendoza",
     href: "https://www.facebook.com/share/17K45vBsgz/"
   },
   {
@@ -197,7 +197,7 @@ export const members = [
       href: "https://web.telegram.org/k/#5736999446"
     },
     facebookname: "Raiza Mae Habaña",
-    href: "https://www.facebook.com/share/1FJfpM3ig9/"
+    href: "https://www.facebook.com/raiza.habana.666986/"
   },
   // Digital Marketing Staff
   {
@@ -210,7 +210,7 @@ export const members = [
       title: "09566423715",
       href: "https://web.telegram.org/k/#@Mike_madriaga"
     },
-    facebookname: "Michael Tapec",
+    facebookname: "Madriaga Mike",
     href: "https://www.facebook.com/share/1Rg9NYHbRL/"
   },
   {
@@ -236,7 +236,7 @@ export const members = [
       title: "09668830150",
       href: "https://web.telegram.org/k/#5736999446"
     },
-    facebookname: "Jd Anyayahan",
+    facebookname: "Armand Cajucom",
     href: "https://www.facebook.com/share/17TegUqJzV/?mibextid=wwXIfr"
   },
   {
@@ -250,7 +250,7 @@ export const members = [
       href: "https://web.telegram.org/k/#@Jayveevaleriano20"
     },
     facebookname: "Jayvee Valeriano",
-    href: "https://www.facebook.com/Abic.jayvee"
+    href: "https://www.facebook.com/jayveevaleriano1997"
   },
   {
     name: "Janina Jerusalem",
@@ -288,7 +288,7 @@ export const members = [
       title: "09919875397",
       href: "https://web.telegram.org/k/#09919875397"
     },
-    facebookname: "Kaila Dapiaoen",
+    facebookname: "Kaila Rose Dapiaoen",
     href: "https://www.facebook.com/krdapiaoen"
   },
   {
