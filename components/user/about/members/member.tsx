@@ -85,7 +85,7 @@ ADR;TYPE=WORK:;;Unit 311, Campos Rueda Building, 101 Urban Ave, Makati, Metro Ma
     <section className="flex justify-center px-4 sm:px-8 md:px-12 lg:px-24 xl:px-64 2xl:px-[20rem] mt-12 sm:mt-24 mb-12">
       <div className="w-full max-w-6xl">
         {member ? (
-          <Card className="p-2 sm:p-4">
+          <Card className="p-4 mt-8">
             <CardBody>
               <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 md:gap-8">
                 {/* Image Section */}
@@ -109,7 +109,7 @@ ADR;TYPE=WORK:;;Unit 311, Campos Rueda Building, 101 Urban Ave, Makati, Metro Ma
                   </div>
 
                   {/* Details Grid */}
-                  <div className="grid grid-cols-[40px_1fr] gap-y-2 sm:gap-y-3 gap-x-2 sm:gap-x-3 items-start text-xs sm:text-sm text-blue-700">
+                  <div className="grid grid-cols-[40px_1fr] gap-y-2 sm:gap-y-3 gap-x-2 sm:gap-x-3 items-center text-xs sm:text-sm text-blue-700">
                     {/* Websites */}
                     {member.websites && Array.isArray(member.websites) ? (
                       <>

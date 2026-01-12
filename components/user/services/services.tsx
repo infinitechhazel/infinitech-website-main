@@ -1,7 +1,5 @@
 "use client"
 
-import React from "react"
-
 const Services = () => {
   const services = [
     {
@@ -140,56 +138,58 @@ const Services = () => {
   ]
 
   return (
-    <section className="container mx-auto lg:py-24 px-4 py-20 md:pb-0">
-      <div className="flex flex-col justify-center items-center">
-        <div className="flex justify-between">
-          <div className="max-w-xl text-center">
-            <h1 className="font-bold text-accent text-4xl">OUR SERVICES</h1>
-            <h1 className="text-3xl text-primary font-['Poetsen_One']">Your Trusted IT & Creative Solutions for Your Growing Businesses</h1>
-          </div>
+    <div className="mx-4 flex flex-col justify-center items-center">
+      <div className="flex justify-between mb-10">
+        <div className="max-w-xl text-center">
+          <h1 className="font-bold text-accent text-4xl">OUR SERVICES</h1>
+          <h1 className="text-3xl text-white mt-2 font-['Poetsen_One']">Your Trusted IT & Creative Solutions for Your Growing Businesses</h1>
         </div>
+      </div>
 
-        <div className="xl:py-8">
-          <div className="flex flex-col justify-center items-center">
-            {services.map((service, index) => (
-              <div className="w-full">
-                <div key={service.title} className="grid grid-cols-1 md:grid-cols-2 items-center gap-8 mb-8">
-                  <div className={index % 2 === 0 ? "md:order-2" : "md:order-1"}>
-                    <img className="w-full h-[28rem] object-contain" alt={service.title} src={`/images/services/${service.image}`} />
-                  </div>
+      <section className="container mx-auto px-4 lg:px-8 mb-12 bg-white">
+        <div className="flex flex-col justify-center items-center">
+          <div className="xl:py-8">
+            <div className="flex flex-col justify-center items-center">
+              {services.map((service, serviceIndex) => (
+                <div key={`${service.title}-${serviceIndex}`} className="w-full">
+                  <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8 mb-8">
+                    <div className={serviceIndex % 2 === 0 ? "md:order-2" : "md:order-1"}>
+                      <img className="w-full h-[28rem] object-contain" alt={service.title} src={`/images/services/${service.image}`} />
+                    </div>
 
-                  <div className={index % 2 === 0 ? "md:order-1" : "md:order-2"}>
-                    <div className="max-w-lg">
-                      <span className="text-xl text-accent font-bold">{service.title}</span>
-                      <h1 className="text-3xl text-primary font-bold mt-2 font-['Poetsen_One']">{service.subtitle}</h1>
-                      <p className="text-lg text-gray-600 mt-4">{service.description}</p>
+                    <div className={serviceIndex % 2 === 0 ? "md:order-1" : "md:order-2"}>
+                      <div className="max-w-lg">
+                        <span className="text-xl text-accent font-bold">{service.title}</span>
+                        <h1 className="text-3xl text-primary font-bold mt-2 font-['Poetsen_One']">{service.subtitle}</h1>
+                        <p className="text-lg text-gray-600 mt-4">{service.description}</p>
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                {/* Category cards */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
-                  {service.categories.map((category, index) => (
-                    <div
-                      key={category.id}
-                      className={`rounded-lg p-4 transition-all duration-300 cursor-pointer group hover:shadow-lg hover:shadow-blue-400/50
+                  {/* Category cards */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
+                    {service.categories.map((category, catIndex) => (
+                      <div
+                        key={`service-${serviceIndex}-category-${category.id ?? catIndex}`}
+                        className={`rounded-lg p-4 transition-all duration-300 cursor-pointer group hover:shadow-lg hover:shadow-blue-400/50
                       ${
-                        index % 2 === 0
+                        catIndex % 2 === 0
                           ? "bg-gradient-to-r from-slate-50 via-primary/20 to-accent/10 hover:to-primary/50"
                           : "bg-gradient-to-r from-accent/10 via-accent/30 to-primary/10 hover:to-primary/50"
                       }`}
-                    >
-                      <h3 className="text-primary font-bold text-lg">{category.name}</h3>
-                      <p className="text-gray-600 text-base mt-2">{category.description}</p>
-                    </div>
-                  ))}
+                      >
+                        <h3 className="text-primary font-bold text-lg">{category.name}</h3>
+                        <p className="text-gray-600 text-base mt-2">{category.description}</p>
+                      </div>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   )
 }
 
