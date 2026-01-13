@@ -23,14 +23,6 @@ const Solutions = () => {
       {/* Solutions Section */}
       <section className="container mx-auto px-4">
         <div className="flex flex-col justify-center items-center">
-          <div className="flex justify-between">
-            <div className="max-w-2xl text-center">
-              <h1 className="font-bold text-accent text-4xl">OUR SOLUTIONS</h1>
-              <h1 className={`text-3xl text-white ${poetsen_one.className} mt-2`}>
-                We design & build your custom website helping clients achieve business growth & digital transformation
-              </h1>
-            </div>
-          </div>
           <div className="flex justify-center lg:justify-end items-center w-full my-5">
             <Button
               onClick={scrollToSurvey}

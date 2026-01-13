@@ -139,13 +139,6 @@ const Services = () => {
 
   return (
     <div className="mx-4 flex flex-col justify-center items-center">
-      <div className="flex justify-between mb-10">
-        <div className="max-w-xl text-center">
-          <h1 className="font-bold text-accent text-4xl">OUR SERVICES</h1>
-          <h1 className="text-3xl text-white mt-2 font-['Poetsen_One']">Your Trusted IT & Creative Solutions for Your Growing Businesses</h1>
-        </div>
-      </div>
-
       <section className="container mx-auto px-4 lg:px-8 mb-12 bg-white">
         <div className="flex flex-col justify-center items-center">
           <div className="xl:py-8">
