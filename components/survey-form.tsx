@@ -273,7 +273,7 @@ export default function SurveyForm() {
 
   if (submitted) {
     return (
-      <Card className="max-w-lg mx-auto bg-white/95 backdrop-blur shadow-2xl border-0">
+      <Card className="max-w-lg mx-auto bg-white/95 shadow-2xl border-0">
         <CardContent className="pt-12 pb-12 text-center">
           <CheckCircle2 className="w-20 h-20 text-emerald-500 mx-auto mb-6" />
           <h2 className="text-2xl font-bold mb-3 text-slate-800">Thank You!</h2>
@@ -287,8 +287,8 @@ export default function SurveyForm() {
   }
 
   return (
-    <div className="w-full min-h-screen py-8 px-4">
-      <Card className="max-w-4xl mx-auto bg-white/95 backdrop-blur shadow-2xl border-0">
+    <div className="w-full min-h-screen py-8">
+      <Card className="max-w-4xl mx-auto bg-white/95 shadow-2xl border-0">
         <CardHeader className="bg-accent text-white rounded-t-lg">
           <CardTitle className="text-2xl">Client Discovery Survey</CardTitle>
           <CardDescription className="text-slate-100">
